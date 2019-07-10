@@ -20,7 +20,7 @@
 .introLinks {
 	margin-top: 55px;
 	text-align: center;
-	font-size: .6em;
+	font-size: .8rem;
 }
 .introLinks a{
 	text-decoration:none;
@@ -40,7 +40,6 @@
 }
 .projectsHeader {
 	text-align: center;
-	font-size:1.2em;
 }
 
 .ptext {
@@ -61,14 +60,12 @@ to{
 }
 }
 .card-text {
-	Font-size: .7em;
 }
 
 .card-link  {
 	color:#C4960B;
 	text-align: center;
 	margin:auto;
-	font-size:.6em;
 	display: inline-block;
 }
 
@@ -181,6 +178,13 @@ to{
 	}
 	.aboutText{
 		width:30%;
+	}
+	.introSection{
+		padding-top: 200px;
+	}
+	.aboutText{
+		width:40%;
+		font-size: 1.5rem;
 	}
 }
 
