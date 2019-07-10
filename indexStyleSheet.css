@@ -1,0 +1,186 @@
+@charset "utf-8";
+/* CSS Document */
+
+.section {
+	background-color: #fbfbfb;
+	padding-top:170px;
+	padding-bottom: 50px;
+	padding-left:10%;
+	padding-right:10%;
+}
+.aboutText{
+	text-align: center;
+	width: 70%;
+	margin: auto;
+}
+.about {
+	color: dimgray;
+	text-align:center;
+}
+.introLinks {
+	margin-top: 55px;
+	text-align: center;
+	font-size: .6em;
+}
+.introLinks a{
+	text-decoration:none;
+	}
+.introLinks a:hover{
+	color:#C4960B;
+	decoration:none;
+	text-decoration: none;
+}
+.introLinks a:active{
+	color:#C4960B;
+	decoration: none;
+}
+
+.contacts {
+	color: dimgray;
+}
+.projectsHeader {
+	text-align: center;
+	font-size:1.2em;
+}
+
+.ptext {
+	font-color:dimgray;
+	text-align: center;
+	margin-top:20px;
+	margin-bottom:10px;
+}
+.invis {
+	-webkit-animation:fade-in 3s infinite alternate;
+}
+@-webkit-keyframes fade-in{
+from{
+    opacity:0;
+}
+to{
+    opacity:1;
+}
+}
+.card-text {
+	Font-size: .7em;
+}
+
+.card-link  {
+	color:#C4960B;
+	text-align: center;
+	margin:auto;
+	font-size:.6em;
+	display: inline-block;
+}
+
+.card {
+	margin-top:25px;
+}
+
+.card-img-top {
+	margin-bottom: 10px;
+	padding:10px;
+}
+
+
+
+.projectsHeaderDiv {
+	margin-bottom: 70px;
+	padding-top:30px;
+}
+
+.projectsSection {
+	background-color: #F3F1EC;
+	padding-top: 30px;
+}
+
+.card-background-image {
+	height: 175px;
+	margin-bottom: 20px;
+	border-radius: 2%;
+}
+
+.hyundaiBackground {
+	background-image: url(images/HyundaiBackground.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.hyundailogo {
+	padding: 20px;
+	margin-top:20px;
+	width: 100%;
+}
+
+.remacBackground {
+	background-image: url(images/RimacBack.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.oilGoBackground {
+	background-image: url(images/OilgoBack2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.oilgoLogo {
+	padding:25px;
+	width:100%;
+}
+.card-body {
+	height: 100%;
+}
+
+@media (max-width: 480px){
+			.section{
+		padding-bottom:150px;
+	}
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+	.card-background-image{
+		height:280px;
+	}
+		.section{
+		padding-bottom:150px;
+	}
+		.aboutText{
+		width:50%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1019px){
+	.card-background-image{
+		float:left;
+		width: 45%;
+		margin-right: 25px;
+		margin-bottom: 50px;
+		height:100%;
+	}
+	.card-link{
+		margin-bottom:20px;
+	}
+		.section{
+		padding-bottom:100px;
+	}
+		.aboutText{
+		width:35%;
+	}
+}
+@media (min-width: 1020px){
+		.card-background-image{
+		float:left;
+		width: 45%;
+		margin-right: 25px;
+		margin-bottom: 50px;
+		height:100%;
+	}
+
+	.section{
+		padding-bottom:200px;
+	}
+	.aboutText{
+		width:30%;
+	}
+}
+

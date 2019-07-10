@@ -1,0 +1,392 @@
+@charset "utf-8";
+.intro{
+	padding-top:200px;
+	padding-left:5%;
+	padding-right:5%;
+	margin-bottom: 120px;
+}
+.section{
+background-color: #FBFBFB;
+width: 100%;
+overflow: hidden;
+padding-top:65px;
+text-align: center;
+padding:5%;
+}
+
+.subCategory {
+	text-align: left;
+	margin-bottom: 35px;
+	margin-top:25px;
+	overflow: hidden;
+}
+
+
+/*==========Headers and Titles================*/
+h2 {
+	color: black;
+}
+h1 {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"
+}
+.overviewHeaders {
+
+	font-weight: bold;
+    font-size: .8rem;
+    text-align: left;
+    padding-bottom: 0px;
+}
+.subHeader {
+	text-align: left;
+	margin-bottom: 25px;
+	margin-top: 15px;
+}
+.overViewHeader{
+	padding-bottom: 50px;
+}
+.overViewLists {
+	padding-top: 25px;
+	padding:20px; 
+}
+
+.overviewBlocks {
+	text-align: left;
+}
+
+h6{
+	font-weight: bold;
+}
+.adminListContainer{margin-bottom:
+25px; float: left;}
+/*============ Text Formatting==============*/
+.contentTextDiv {
+	line-height: 2rem;
+	text-align: left;
+}
+.introHook {
+	text-align: center;
+	margin-bottom: 30px;
+	color: dimgray;
+	margin-top:20px;
+}
+.overviewText {
+	margin-left: 25px;
+	width: 50%;
+	text-align: left;
+}
+figcaption {
+	font-size: .85rem;
+	padding-top: 10px;
+	margin: 10px;
+	line-height: 1rem;
+	font-style: italic;
+	text-align: center;
+}
+.challengeList {
+	text-align: left;
+	margin:auto;
+	font-family: "IBM Plex Sans Text";
+}
+.adminNamesList {
+list-style: none;
+	font-family:'IBM Plex Sans Text';
+	padding: 0px;
+	margin-left: 25px;
+	width: 100px;
+}
+
+/****Section Formatting******
+.overviewContentDivs {
+	margin: auto;
+	font-size: 1rem;
+	text-align: left;
+	margin-left: 25px;
+	clear: left;
+}
+.TakeAway{
+	margin-bottom: 150px;
+}
+/*======Project Images========*/
+.rightImage {
+
+	text-align: center;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.leftImage {
+	text-align: center;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.centerImage {
+	text-align: center;
+	float: none;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+#oilgoLogo {
+	width: 70%;
+	padding-bottom: 30px;
+}
+#OilGs{
+	width: 80%;
+	border: black solid 3px;
+}
+#Poster{
+	width: 100%;
+}
+#NationalSafe{
+	width: 100%;
+	border: solid 3px dimgray;
+}
+#SponsorUp{
+	width: 100%;
+	border: solid 3px dimgray;
+}
+#DIYMentorship{
+	width: 100%;
+	border: solid 3px dimgray;
+}
+#Pest{
+	width: 100%;
+	border: solid 3px dimgray;
+}
+#StoryBoard{
+	width: 100%;
+	border: solid 3px dimgray;
+}
+#ServicePost{
+	width: 100%;
+	border: solid 3px dimgray;
+}
+#ServiceEnactments{
+		width: 100%;
+		border: solid 3px dimgray;
+}
+
+#Moodboard{
+		width: 100%;
+}
+#Branding{
+		width: 70%;
+}
+#Wireframes{
+		width: 80%;
+}
+/*==========animations==========*/
+button:focus,button:active {
+   outline: none !important;
+   box-shadow: none;
+}
+/**Page breaks***/
+
+@media ( max-width : 480px){
+}
+@media (min-width: 481px) and (max-width: 767px) { 
+.menuItem{
+	display: none;
+}
+
+.caseText{
+	padding-left:10%;
+	padding-right: 10%;
+}
+
+	#AdrianBrandon{
+	width:45%;
+	float: left;
+	padding: 20px;
+}
+#WizardofOZ{
+	width:45%;
+}
+#BrainstormSketch{
+	width:35%;
+}
+}
+@media (min-width: 768px) and (max-width: 1019px) {
+	.intro{
+		padding-top:150px;
+		padding-left:20%;
+		padding-right:20%;
+	}
+	.projectsHeader{
+		margin-bottom: 25px;
+	}
+	.leftImage{
+		float:left;
+		width: 45%;
+	}	
+	.rightImage{
+		float:right;
+		width: 45%;
+	}	
+	.centerImage{
+		width: 85%;
+		text-align: center;
+		margin: auto;
+	}
+	#JapaneseTrain{
+		width: 55%;
+	}
+	#ObservationSynthesis{
+		width: 85%;
+		margin-top:25px;
+	}
+		.container{
+			margin-bottom: 0px;
+			max-width: 100%;
+		}
+	#oilgoLogo{
+		width: 40%;
+		float: right;
+	}
+	.overviewHeaders{
+		display: inline-flex;
+		width: 100px;
+	}
+	.overviewText{
+		display: inline-flex;
+		margin-left:100px;
+		clear: both;
+		text-align: left;
+	}
+	.adminListContainer{
+		float: none;
+		display: inline-flex;
+		margin-left: 100px;
+	}
+	.adminNamesList{
+		margin-left:0px;
+		
+	}
+	.undergradNames{
+		display:inline-flex;
+		margin-left: 100px;
+		width: 50%;
+		
+	}
+	.leftText{
+		float: left;
+		width: 50%;
+	}	
+	.rightText{
+		float: right;
+		width: 50%;
+	}
+	.rightImage{
+		width: 45%;
+	}
+	#CriticalFactors{
+		margin-top:70px;
+	}
+	#BrainstormSketch{
+		width:80%;
+		margin-top:45px;
+	}
+	#AdrianBrandon{width: 55%;}
+
+}
+ 	
+@media (min-width: 1020px)
+{
+	.projectsHeader{
+		margin-bottom: 25px;
+	}
+	.intro{
+		padding-top:100px;
+		padding-left:25%;
+		padding-right:25%;
+	}
+	.leftImage{
+		float:left;
+		width: 45%;
+	}	
+	.rightImage{
+		float:right;
+		width: 45%;
+	}	
+	.centerImage{
+		width: 85%;
+		text-align: center;
+		margin: auto;
+	}
+	#ObservationSynthesis{
+		width: 85%;
+		margin-top:25px;
+	}
+	#oilgoLogo{
+		width: 40%;
+		float: right;
+	}
+	.contentContainer{
+		margin-left:15%;
+		margin-right:15%;
+	}
+		.uxProjects{
+			display: none;
+	}
+	.overviewHeaders{
+		display: inline-flex;
+		width: 100px;
+	}
+	.overviewText{
+		display: inline-flex;
+		margin-left:100px;
+		clear: both;
+		text-align: left;
+	}
+	.adminListContainer{
+		float: none;
+		display: inline-flex;
+		margin-left: 100px;
+	}
+	.adminNamesList{
+		margin-left:0px;
+		
+	}
+	.undergradNames{
+		display:inline-flex;
+		margin-left: 100px;
+		width: 50%;
+		
+	}
+	.leftText{
+		float: left;
+		width: 50%;
+	}	
+	.rightText{
+		float: right;
+		width: 50%;
+	}
+	.rightImage{
+		width: 45%;
+	}
+	#CriticalFactors{
+		margin-top:70px;
+	}
+	#BrainstormSketch{
+		width:80%;
+		margin-top:45px;
+	}
+	#AdrianBrandon{width: 55%;}
+}
+
+
+
+
+@media screen and (-webkit-max-device-pixel-ratio: 1) {
+}
+ 
+/* Retina */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5) {
+}
+

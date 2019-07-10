@@ -1,0 +1,443 @@
+@charset "utf-8";
+/*====Layout====*/
+.section{
+background-color: #FBFBFB;
+width: 100%;
+overflow: hidden;
+padding-top:65px;
+text-align: center;
+padding:5%;
+}
+.subCategory {
+	text-align: left;
+	margin-bottom: 35px;
+	margin-top:25px;
+	overflow: hidden;
+}
+
+
+/*==========Headers and Titles================*/
+h2 {
+	color: black;
+}
+h1 {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"
+}
+.overviewHeaders {
+
+	font-weight: bold;
+    font-size: .8rem;
+    text-align: left;
+    padding-bottom: 0px;
+}
+.introHooklrg {
+	font-size:2rem;
+	display: none;
+}
+.intro {
+	padding-top: 150px;
+	text-align: center;
+	padding-bottom: 200px;
+}
+.projectsHeader {
+	padding-bottom: 20px
+}
+.subHeader {
+	text-align: left;
+	margin-bottom: 25px;
+	margin-top: 15px;
+}
+.img-valign {
+  vertical-align: middle;
+  margin-bottom: 0.75em;
+}
+
+.overViewHeader{
+	padding-bottom: 50px;
+}
+.adminListContainer{margin-bottom:
+25px; float: left;}
+/*============ Text Formatting==============*/
+.contentTextDiv {
+	text-align: left;
+}
+.introHook {
+	padding-top:20px;
+}
+.overviewText {
+	margin-left: 25px;
+	font-size: .75rem;
+	width: 50%;
+
+}
+figcaption {
+	font-size: .85rem;
+	padding-top: 10px;
+	margin: 10px;
+	line-height: 1rem;
+	font-style: italic;
+	text-align: center;
+}
+.teamNames {
+	text-align: left;
+    font-size: .75rem;
+    margin-bottom: 4px;
+}
+
+.undergradNames {
+	text-align: left;
+	font-size: .75rem;
+	margin-left: 25px;
+    width: 90%;
+}
+.challengeList {
+	text-align: left;
+	margin:auto;
+	font-family: "IBM Plex Sans Text";
+}
+.adminNamesList {
+list-style: none;
+	font-family:'IBM Plex Sans Text';
+	padding: 0px;
+	margin-left: 25px;
+	width: 200px;
+}
+/****Section Formatting******/
+
+.overviewContentDivs {
+	margin: auto;
+	font-size: 1rem;
+	text-align: left;
+	margin-left: 25px;
+	clear: left;
+}
+.TakeAway{
+}
+/*======Project Images========*/
+.rightImage {
+
+	text-align: center;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.leftImage {
+	text-align: center;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.centerImage {
+	text-align: center;
+	float: none;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+#carLogo {
+	width: 100%;
+}
+#CriticalFactors{
+	width: 100%;
+}
+#CarTree{
+	width: 100%;
+}
+#MenInAV{
+	width: 100%;
+}
+#IdeationSession{
+	width: 100%;
+}
+#AffinityDiagram{
+	width: 80%;
+}
+
+#DataSummary{
+	width: 100%;
+}
+#ObservationSynthesis{
+	width: 100%;
+}
+#BrainstormSketch{
+		width: 100%;
+}
+#Persona{
+border: 2px solid black;
+		width: 100%;
+}
+#AdrianBrandon{
+		width: 100%;
+}
+#PrototypeSketch{
+		width: 100%;
+}
+#WizardofOZ{
+		width: 80%;
+}
+#JapaneseTrain{
+	width:100%;
+}
+/*==========animations==========*/
+button:focus,button:active {
+   outline: none !important;
+   box-shadow: none;
+}
+.invis {
+	-webkit-animation:fade-in 3s infinite alternate;
+}
+@-webkit-keyframes fade-in{
+from{
+    opacity:0;
+}
+to{
+    opacity:1;
+}
+}
+/**Page breaks***/
+@media ( max-width : 480px)
+{
+	/*********Div Spacing*****************/
+	
+	.teamNames{
+	}
+	.challengeList{
+		line-height: 1.75rem;
+	}
+	#AdrianBrandon{
+		width:55%;
+		float: left;
+		padding: 15px;
+	}
+	.leftImage{
+		padding:0px;
+	}
+	
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) { 
+
+	.caseText{
+		padding-left:10%;
+		padding-right: 10%;
+	}
+		#AdrianBrandon{
+		width:45%;
+		float: left;
+		padding: 20px;
+	}
+	#WizardofOZ{
+		width:45%;
+	}
+	#BrainstormSketch{
+		width:35%;
+	}
+}
+ @media  (min-width: 769px) and (max-width: 1019px) {
+
+	.leftImage{
+		float:left;
+		width: 45%;
+	}	
+	.rightImage{
+		float:right;
+		width: 45%;
+	}	
+	.centerImage{
+		width: 85%;
+		text-align: center;
+		margin: auto;
+	}
+	#JapaneseTrain{
+		width: 55%;
+	}
+	#ObservationSynthesis{
+		width: 85%;
+		margin-top:25px;
+	}
+		#name li{
+			display: inline;
+		}
+		#buttonNav{
+			 display:none;
+		}
+
+		.menuItem{
+			float: right;
+
+		}
+		.introLinks{
+			margin-top: 40px;
+
+		}
+		.container{
+			margin-bottom: 0px;
+			max-width: 100%;
+		}
+		#name{
+			text-align: left;
+			font-size: 1.5em;
+			margin-top: 35px;
+			padding-left: 200px;
+
+		}
+
+
+
+	.contentContainer{
+	}
+		.brand{
+			padding-left: 5%;
+			padding-right: 5%;
+			position: fixed;
+  			top: 0;
+    		background-color: white;
+   			height: 100px;
+		}
+		#signature{
+			width: 100px;
+		}
+		.uxProjects{
+			display: none;
+	}
+	.overviewHeaders{
+		display: inline-flex;
+		width: 100px;
+	}
+	.overviewText{
+		display: inline-flex;
+		margin-left:100px;
+		clear: both;
+		text-align: left;
+	}
+	.adminListContainer{
+		float: none;
+		display: inline-flex;
+		margin-left: 100px;
+	}
+	.adminNamesList{
+		margin-left:0px;
+		
+	}
+	.undergradNames{
+		display:inline-flex;
+		margin-left: 100px;
+		width: 50%;
+		
+	}
+	.leftText{
+		float: left;
+		width: 50%;
+	}	
+	.rightText{
+		float: right;
+		width: 50%;
+	}
+	.rightImage{
+		width: 45%;
+	}
+	#CriticalFactors{
+		margin-top:70px;
+	}
+	#BrainstormSketch{
+		width:80%;
+		margin-top:45px;
+	}
+	#AdrianBrandon{width: 55%;}
+	 
+}
+@media(min-device-width: 1020px) { 
+	.introHooklrg{
+		display:inline;
+	}
+	.introHook{display: none;}
+	.leftImage{
+		float:left;
+		width: 45%;
+	}	
+	.rightImage{
+		float:right;
+		width: 45%;
+	}	
+	.centerImage{
+		width: 85%;
+		text-align: center;
+		margin: auto;
+	}
+	#carLogo{
+		width:45%;		
+	}
+	
+	.introHook{
+	}
+		
+	.overviewHeaders{
+		display: inline-flex;
+		width: 100px;
+	}
+	.overviewText{
+		display: inline-flex;
+		margin-left:200px;
+		clear: both;
+		text-align: left;
+	}
+	.adminListContainer{
+		float: none;
+		display: inline-flex;
+		margin-left: 200px;
+	}
+	.adminNamesList{
+		margin-left:0px;
+		
+	}
+	.undergradNames{
+		display:inline-flex;
+		margin-left: 200px;
+		width: 50%;
+		
+	}
+	.leftText{
+		float: left;
+		width: 50%;
+	}	
+	.rightText{
+		float: right;
+		width: 50%;
+	}
+	.rightImage{
+		width: 45%;
+	}
+	#CriticalFactors{
+		margin-top:70px;
+	}
+	#BrainstormSketch{
+		width:80%;
+		margin-top:45px;
+	}
+	#AdrianBrandon{width: 55%;}
+}
+/*desktop*/
+
+
+ /*iPad*/
+
+
+/* CSS for iPhone, iPad, and Retina Displays */
+ 
+/* Non-Retina */
+@media screen and (-webkit-max-device-pixel-ratio: 1) {
+}
+ 
+/* Retina */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5) {
+}
+
+
+
+
+
+
