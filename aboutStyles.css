@@ -24,7 +24,6 @@
 	text-indent: 1em;
 	overflow: hidden;
 	vertical-align: middle;
-	font-size:.65em;
 }
 .hobbiesContainer{
 width: 100%;
@@ -58,18 +57,6 @@ padding-left: 50px;
   margin-top: 8px;
   vertical-align: middle;
 	padding: 20px;
-}
-.dot {
-  height: 5px;
-    width: 5px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: block;
-    margin: auto;
-    text-align: center;
-    margin-top: 10px;
-}.activeDot{
-	background-color:#C4960B;
 }
 /* Responsive layout - makes a two column-layout instead of four columns */
 

@@ -239,7 +239,7 @@ list-style: none;
 #introImage {
 	padding: 20px;
 	width: 100%;
-	padding-top:200px;
+	padding-top:170px;
 	margin:auto;
 	margin-bottom:20px;
 }
@@ -340,9 +340,6 @@ to{
 	#introImage{
 		width: 80%;
 		padding-top:150px;
-	}
-	body{
-		font-size:.75rem;
 	}
 }
 @media all and (min-width: 768px) and (max-width: 1019px) {
@@ -487,8 +484,8 @@ to{
 	}
 	#AdrianBrandon{width: 55%;}
 	#introImage{
-		width: 50%;
-		padding-top:120px;
+		width: 45%;
+		padding-top:100px;
 	}
 }
  /*iPad*/
