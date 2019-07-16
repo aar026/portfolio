@@ -229,7 +229,12 @@ color:#C4960B;}
 	color: white;
 	padding-top: 25px;
 }
+.sectionContent {
+	border-bottom: 1px solid #C4960B;
+	margin-top: 50px;
+	text-align: left;
 
+}
 @media  (max-width: 480px){
 	.icons{
 		display: none;
@@ -289,6 +294,7 @@ color:#C4960B;}
 	.sectionContent{
 		 margin-left: 20%;
    		 margin-right: 20%;
+		border-bottom: 1px solid #C4960B;
 	}
 
 }

@@ -1,9 +1,7 @@
 @charset "utf-8";
 .intro{
 	padding-top:200px;
-	padding-left:5%;
-	padding-right:5%;
-	margin-bottom: 120px;
+	padding-bottom:  120px;
 }
 .section{
 background-color: #FBFBFB;
@@ -14,12 +12,6 @@ text-align: center;
 padding:5%;
 }
 
-.subCategory {
-	text-align: left;
-	margin-bottom: 35px;
-	margin-top:25px;
-	overflow: hidden;
-}
 
 
 /*==========Headers and Titles================*/
@@ -59,15 +51,22 @@ h6{
 .adminListContainer{margin-bottom:
 25px; float: left;}
 /*============ Text Formatting==============*/
-.contentTextDiv {
+.subCategory {
 	line-height: 2rem;
 	text-align: left;
+	margin-bottom: 35px;
+	margin-top:25px;
+	overflow: hidden;
+	padding:20px;
+	padding-top:0px;
 }
 .introHook {
-	text-align: center;
-	margin-bottom: 30px;
-	color: dimgray;
-	margin-top:20px;
+		text-align:center;
+margin-left:auto;
+margin-right:auto;
+color:dimgray;
+padding-top:20px;
+	font-weight: bolder;
 }
 .overviewText {
 	margin-left: 25px;
@@ -147,6 +146,9 @@ list-style: none;
 #SponsorUp{
 	width: 100%;
 	border: solid 3px dimgray;
+}#Matrix{
+	width: 100%;
+	border: solid 3px dimgray;
 }
 #DIYMentorship{
 	width: 100%;
@@ -156,7 +158,7 @@ list-style: none;
 	width: 100%;
 	border: solid 3px dimgray;
 }
-#StoryBoard{
+.StoryBoard{
 	width: 100%;
 	border: solid 3px dimgray;
 }
