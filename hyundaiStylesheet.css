@@ -40,7 +40,6 @@ h1 {
 	padding-bottom: 200px;
 }
 .projectsHeader {
-	padding-bottom: 20px
 }
 .subHeader {
 	text-align: left;
@@ -53,7 +52,7 @@ h1 {
 }
 
 .overViewHeader{
-	padding-bottom: 50px;
+
 }
 .adminListContainer{margin-bottom:
 25px; float: left;}
@@ -99,7 +98,7 @@ figcaption {
 list-style: none;
 	font-family:'IBM Plex Sans Text';
 	padding: 0px;
-	margin-left: 25px;
+	padding-right: 25px;
 	width: 200px;
 }
 /****Section Formatting******/
@@ -172,13 +171,18 @@ border: 2px solid black;
 		width: 100%;
 }
 #PrototypeSketch{
-		width: 100%;
+		width: 60%;
 }
 #WizardofOZ{
-		width: 80%;
+		width: 45%;
 }
 #JapaneseTrain{
 	width:100%;
+	
+}
+#wireframe{
+	width:100%;
+	
 }
 /*==========animations==========*/
 button:focus,button:active {
@@ -368,9 +372,6 @@ to{
 	#carLogo{
 		width:45%;		
 	}
-	
-	.introHook{
-	}
 		
 	.overviewHeaders{
 		display: inline-flex;
@@ -378,7 +379,7 @@ to{
 	}
 	.overviewText{
 		display: inline-flex;
-		margin-left:200px;
+		margin-left:25%;
 		clear: both;
 		text-align: left;
 	}
@@ -387,13 +388,9 @@ to{
 		display: inline-flex;
 		margin-left: 200px;
 	}
-	.adminNamesList{
-		margin-left:0px;
-		
-	}
 	.undergradNames{
 		display:inline-flex;
-		margin-left: 200px;
+		margin-left: 25%;
 		width: 50%;
 		
 	}
@@ -441,3 +438,9 @@ only screen and (min-device-pixel-ratio: 1.5) {
 
 
 
+
+#TeamPhoto {
+	width: 80%;
+	border: #000000 solid 5px;
+	margin: 50px;
+}

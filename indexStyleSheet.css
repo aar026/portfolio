@@ -68,6 +68,10 @@ to{
 	margin:auto;
 	display: inline-block;
 }
+.card-link:hover {
+    text-decoration: none;
+	color: #A84648;
+}
 
 .card {
 	margin-top:25px;
@@ -174,7 +178,7 @@ to{
 	}
 
 	.section{
-		padding-bottom:200px;
+		padding-bottom:80px;
 	}
 	.aboutText{
 		width:30%;

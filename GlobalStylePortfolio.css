@@ -1,4 +1,4 @@
-h1, h2, h3, h4, h5, h6, #top .title_container .main-title, tr.pricing-row td, #top .portfolio-title, .callout .content-area, .avia-big-box .avia-innerbox, .av-special-font, .av-current-sort-title, .html_elegant-blog #top .minor-meta {
+ul, li, h1, h2, h3, h4, h5, h6, #top .title_container .main-title, tr.pricing-row td, #top .portfolio-title, .callout .content-area, .avia-big-box .avia-innerbox, .av-special-font, .av-current-sort-title, .html_elegant-blog #top .minor-meta {
     font-family: 'IBM Plex Sans', sans-serif !important;
 }
 
@@ -35,7 +35,6 @@ background-color: #fbfbfb;
 	padding-left: 5%;
 	padding-right:5%;
 	background-color: white;
-	border-bottom: .05px dimgray solid;
 	
 }
 .dot {
@@ -245,7 +244,7 @@ color:#C4960B;}
 	}
 	.dot{display: none;
 	}
-	.bodyContent{padding-left:2%;}
+	.bodyContent{}
 }
 
 @media (min-width: 481px) and (max-width: 767px){
