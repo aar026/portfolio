@@ -134,7 +134,13 @@ color:#C4960B;}
 transition-duration: .35s;
 color:#C4960B;}
 
-
+footer a{
+	color:dimgray;
+}
+footer a:hover{
+	color:#C4960B;
+	text-decoration: none;
+}
 
 /*Lower Navbar*/
 #buttonNav {
@@ -145,7 +151,8 @@ color:#C4960B;}
 	text-align: center;
 	width: 100%;
 	position: fixed;
-	transition: bottom 1s;	
+	transition: bottom 1s;
+	z-index: 5;
 }
 #buttonNav ul {
 	list-style: none;
@@ -214,19 +221,25 @@ color:#C4960B;}
 .show {display:block;}
 /*******Footer********/
 .footer {
-	background-color: gray;
-	height: 130px;
+	background-color: #F3F1EC;
+	height: 280px;
 	left: 0;
 	bottom: 0;
 	width: 100%;
 	text-align: center;
+	padding:30px;
+	color: dimgray;
+}
+.footer a{
+	color:dimgray;
 }
 .nametag {
 	text-align: center;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
 	font-size:.75rem;
-	color: white;
-	padding-top: 25px;
+	color: dimgray;
+	padding: 25px;
+	margin:0px;
 }
 .sectionContent {
 	border-bottom: 1px solid #C4960B;
@@ -244,12 +257,17 @@ color:#C4960B;}
 	}
 	.dot{display: none;
 	}
-	.bodyContent{}
+	.page-footer{
+		padding-bottom:5rem;
+	}
 }
 
 @media (min-width: 481px) and (max-width: 767px){
 	.icons{
 		display:none;
+	}
+	.page-footer{
+		padding-bottom:5rem;
 	}
 	#buttonNav li{
 		margin-left:50px;
@@ -268,12 +286,15 @@ color:#C4960B;}
 #buttonNav{
 	display: none;
 }
-	.footer{
-		height: 80px;
+	.page-footer{
+		padding-bottom:3rem;
 	}
 
 }
 @media (min-width: 1020px){
+		.page-footer{
+		padding-bottom:2rem;
+	}
 		#name{
 			float:left;
 		margin-left:50px;
@@ -282,9 +303,7 @@ color:#C4960B;}
 		#buttonNav{
 		display: none;
 	}	
-	.footer{ 
-		height: 80px;
-	}
+
 
 	.contentContainer{
 		 margin-left: 20%;
@@ -299,3 +318,12 @@ color:#C4960B;}
 }
 
 
+
+.footerCol {
+	text-align: left;
+}
+
+.footerContent {
+	text-align: 
+		left;
+}

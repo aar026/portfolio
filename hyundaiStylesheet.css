@@ -278,33 +278,10 @@ to{
 		.container{
 			margin-bottom: 0px;
 			max-width: 100%;
-		}
-		#name{
-			text-align: left;
-			font-size: 1.5em;
-			margin-top: 35px;
-			padding-left: 200px;
-
-		}
+	 }
 
 
 
-	.contentContainer{
-	}
-		.brand{
-			padding-left: 5%;
-			padding-right: 5%;
-			position: fixed;
-  			top: 0;
-    		background-color: white;
-   			height: 100px;
-		}
-		#signature{
-			width: 100px;
-		}
-		.uxProjects{
-			display: none;
-	}
 	.overviewHeaders{
 		display: inline-flex;
 		width: 100px;
