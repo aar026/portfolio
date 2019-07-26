@@ -1,6 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
-
+.line{
+	display: inline-block;
+	width: 50%;
+	border: 2px black;
+}
 .section {
 	background-color: #fbfbfb;
 	padding-top:170px;
@@ -12,6 +16,7 @@
 	text-align: center;
 	width: 70%;
 	margin: auto;
+
 }
 .about {
 	color: dimgray;
@@ -167,6 +172,9 @@ to{
 		.aboutText{
 		width:35%;
 	}
+	.introSection{
+		padding-bottom:125px;
+	}
 }
 @media (min-width: 1020px){
 		.card-background-image{
@@ -185,6 +193,7 @@ to{
 	}
 	.introSection{
 		padding-top: 200px;
+		padding-bottom: 150px;
 	}
 	.aboutText{
 		width:40%;
