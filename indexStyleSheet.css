@@ -1,10 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
-.line{
-	display: inline-block;
-	width: 50%;
-	border: 2px black;
-}
+
 .section {
 	background-color: #fbfbfb;
 	padding-top:170px;
@@ -22,6 +18,8 @@
 	color: dimgray;
 	text-align:center;
 }
+
+
 .introLinks {
 	margin-top: 55px;
 	text-align: center;
@@ -80,6 +78,12 @@ to{
 
 .card {
 	margin-top:25px;
+	transition: transform .5s;
+}
+.card:hover {
+  -ms-transform: scale(1.05); /* IE 9 */
+  -webkit-transform: scale(1.05); /* Safari 3-8 */
+  transform: scale(1.05); 
 }
 
 .card-img-top {
