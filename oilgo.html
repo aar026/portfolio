@@ -355,6 +355,10 @@
 	<script src="jQuery v3.4.1.js"></script>
 	<script src="barba.min.js" type="text/javascript"></script>	
 	<script src="transitions.js"></script>
-
+<script>Barba.Dispatcher.on('initStateChange', function() {
+  if (typeof ga === 'function') {
+    ga('send', 'pageview', location.pathname);
+  }
+});</script>
 </body>
 </html>
