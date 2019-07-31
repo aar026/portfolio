@@ -19,12 +19,7 @@ var FadeTransition = Barba.BaseTransition.extend({
 
     return $(this.oldContainer).animate({ opacity: 0 }).promise();
   },
-$.getScript( "ajax/test.js", function( data, textStatus, jqxhr ) {
-  console.log( data ); // Data returned
-  console.log( textStatus ); // Success
-  console.log( jqxhr.status ); // 200
-  console.log( "Load was performed." );
-});
+
   fadeIn: function() {
     /**
      * this.newContainer is the HTMLElement of the new Container
@@ -65,6 +60,19 @@ Barba.Pjax.getTransition = function() {
 
   return FadeTransition;
 };
+Barba.Dispatcher.on('newPageReady', function (currentStatus, oldStatus, container) {
+    $(container).find('script').each(function (i, script) {
+        var $script = $(script);
+        $.ajax({
+            url: $script.attr('src'),
+            cache: true,
+            dataType: 'script',
+            success: function () {
+                $script.trigger('load');
+            }
+        });
+    });
+});
 
 Barba.Dispatcher.on('newPageReady', function(currentStatus, oldStatus, container) {
     eval(container.querySelector("script").innerHTML);
