@@ -61,4 +61,8 @@ Barba.Pjax.getTransition = function() {
   return FadeTransition;
 };
 
+Barba.Dispatcher.on('newPageReady', function(currentStatus, oldStatus, container) {
+    eval(container.querySelector("script").innerHTML);
+});
+
 Barba.Pjax.start();
