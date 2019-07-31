@@ -1,8 +1,3 @@
-// tell Barba to use the prefetch module
-barba.use(barbaPrefetch);
-
-// init Barba
-barba.init();
 
 var FadeTransition = Barba.BaseTransition.extend({
   start: function() {
