@@ -19,7 +19,12 @@ var FadeTransition = Barba.BaseTransition.extend({
 
     return $(this.oldContainer).animate({ opacity: 0 }).promise();
   },
-
+$.getScript( "ajax/test.js", function( data, textStatus, jqxhr ) {
+  console.log( data ); // Data returned
+  console.log( textStatus ); // Success
+  console.log( jqxhr.status ); // 200
+  console.log( "Load was performed." );
+});
   fadeIn: function() {
     /**
      * this.newContainer is the HTMLElement of the new Container
