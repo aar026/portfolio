@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
-.section {
+.indexSection {
 	background-color: #fbfbfb;
 	padding-top:170px;
 	padding-bottom: 50px;
@@ -142,7 +142,7 @@ to{
 }
 
 @media (max-width: 480px){
-			.section{
+			.indexSection{
 		padding-bottom:150px;
 	}
 }
@@ -151,7 +151,7 @@ to{
 	.card-background-image{
 		height:280px;
 	}
-		.section{
+		.indexSection{
 		padding-bottom:150px;
 	}
 		.aboutText{
@@ -170,7 +170,7 @@ to{
 	.card-link{
 		margin-bottom:20px;
 	}
-		.section{
+		.indexSection{
 		padding-bottom:100px;
 	}
 		.aboutText{
@@ -189,7 +189,7 @@ to{
 		height:100%;
 	}
 
-	.section{
+	.indexSection{
 		padding-bottom:80px;
 	}
 	.aboutText{

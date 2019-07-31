@@ -1,6 +1,6 @@
 @charset "utf-8";
 /*====Layout====*/
-.section{
+.section {
 background-color: #FBFBFB;
 width: 100%;
 overflow: hidden;
@@ -8,6 +8,7 @@ padding-top:65px;
 text-align: center;
 padding:5%;
 }
+
 .subCategory {
 	text-align: left;
 	margin-bottom: 35px;
@@ -34,7 +35,7 @@ h1 {
 	font-size:2rem;
 	display: none;
 }
-.intro {
+.Hyundaiintro {
 	padding-top: 150px;
 	text-align: center;
 	padding-bottom: 200px;
@@ -269,10 +270,6 @@ to{
 
 		.menuItem{
 			float: right;
-
-		}
-		.introLinks{
-			margin-top: 40px;
 
 		}
 		.container{
