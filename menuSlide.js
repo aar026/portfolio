@@ -1,4 +1,4 @@
-/**const indicator = document.querySelector('.nav-indicator');
+const indicator = document.querySelector('.nav-indicator');
 const items = document.querySelectorAll('.nav-item');
 
 function handleIndicator(el) {
