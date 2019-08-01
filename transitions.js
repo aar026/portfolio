@@ -61,4 +61,21 @@ Barba.Pjax.getTransition = function() {
   return FadeTransition;
 };
 
+/**Barba.Pjax.start();*/
+
+
 Barba.Pjax.start();
+Barba.Prefetch.init();
+
+Barba.Dispatcher.on('newPageReady', function(currentStatus) {
+  const link = currentStatus.url.split(window.location.origin)[1].substring(1); // get path of current page
+
+  const navigation             = document.querySelector('.navigation');
+  const navigationLinks        = navigation.querySelectorAll('.navigation__link');
+  const navigationLinkIsActive = navigation.querySelector(`[href="${link}"]`);
+
+  Array.prototype.forEach.call(navigationLinks, (navigationLink) => navigationLink.classList.remove('is-active')); // remove CSS class 'is-active' from all .navigation__links
+
+  navigationLinkIsActive.classList.add('is-active'); // add CSS class to current .navigation__link
+
+});
