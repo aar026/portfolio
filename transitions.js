@@ -64,15 +64,16 @@ Barba.Pjax.getTransition = function() {
 /**Barba.Pjax.start();*/
 
 
+// Barba.js
 Barba.Pjax.start();
 Barba.Prefetch.init();
 
 Barba.Dispatcher.on('newPageReady', function(currentStatus) {
   const link = currentStatus.url.split(window.location.origin)[1].substring(1); // get path of current page
 
-  const navigation             = document.querySelector('.navigation');
-  const navigationLinks        = navigation.querySelectorAll('.navigation__link');
-  const navigationLinkIsActive = navigation.querySelector(`[href="${link}"]`);
+  const navigation             = document.querySelector('.navMenu');
+  const navigationLinks        = navigation.querySelectorAll('.navLink'); //all 
+  const navigationLinkIsActive = navigation.querySelector(`[href="${link}"]`); //link that is active
 
   Array.prototype.forEach.call(navigationLinks, (navigationLink) => navigationLink.classList.remove('is-active')); // remove CSS class 'is-active' from all .navigation__links
 
