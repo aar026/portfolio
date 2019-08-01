@@ -78,6 +78,7 @@ Barba.Dispatcher.on('newPageReady', function(currentStatus) {
   console.log(navigation);
   console.log(spans);
   console.log(navLinks);
+  console.log(link);
   console.log(navigationLinkIsActive);
   console.log(link);
 	
