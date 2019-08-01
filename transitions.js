@@ -69,9 +69,18 @@ Barba.Pjax.start();
 Barba.Prefetch.init();
 
 Barba.Dispatcher.on('newPageReady', function(currentStatus) {
-     const navs = $(html).find('[.dot]');
+  const link = currentStatus.url.split(window.location.origin)[1].substring(1); // get path of current page
 
-    $('[.dot]').each(function(index) {
-        const newClasses = $(navs[index]).get(0).classList.value;
-        $(this).attr('.activeDot', activeDot);
-    });
+  const navigation             = document.querySelector('.navMenu');
+  const navigationLinks        = navigation.querySelectorAll('.dot');
+  const navigationLinkIsActive = navigation.querySelector("a[href='" + link + "']");
+
+	console.log(navigation);
+	console.log(navigationLinks);
+	console.log(navigationLinkIsActive);
+	
+  Array.prototype.forEach.call(navigationLinks, (navigationLink) => navigationLink.classList.remove('.activeDot')); // remove CSS class 'is-active' from all .navigation__links
+
+  navigationLinkIsActive.classList.add('.activeDot'); // add CSS class to current .navigation__link
+
+});
