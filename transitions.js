@@ -73,11 +73,11 @@ Barba.Dispatcher.on('newPageReady', function(currentStatus) {
 
   const navigation             = document.querySelector('.navMenu');
   const navigationLinks        = navigation.querySelectorAll('.activeDot'); //all 
-  const navigationLinkIsActive = navigation.querySelector(`[href="${link}"]`); //link that is active
-
+  const navigationLinkIsActive = navigation.querySelector(`[href="${link}"]`).querySelector(".dot"); //link that is active
+  
+	alert("navigationLinkIsActive")
   Array.prototype.forEach.call(navigationLinks, (navigationLink) => navigationLink.classList.remove('activeDot')); 
 	
-  Array.prototype.forEach.call(navigationLinks, (navigationLink) => navigationLink.classList.remove('activeDot')); // remove CSS class 'is-active' from all .navigation__links
 
   navigationLinkIsActive.classList.add('activeDot'); // add CSS class to current .navigation__link
 
