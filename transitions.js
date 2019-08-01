@@ -71,15 +71,19 @@ Barba.Prefetch.init();
 Barba.Dispatcher.on('newPageReady', function(currentStatus) {
   const link = currentStatus.url.split(window.location.origin)[1].substring(1); // get path of current page
 
-  const navigation             = document.querySelector('.navLink');
-  const navigationLinks        = navigation.querySelectorAll('.activeDot'); //all 
-  const navigationLinkIsActive = navigation.querySelector(`[href="${link}"]`); //link that is active
+  const navigation             = document.querySelector('.navMenu'); //selects ul menu
+  const spans			       = navigation.querySelectorAll('.activeDot'); //selects all spans
+  const navLinks			   = navigation.querySelectorAll('.navLink'); //selects all navlinks
+  const navigationLinkIsActive = navLinks.querySelector(`[href="${link}"]`); // selects link that is active
   console.log(navigation);
+  console.log(spans);
+  console.log(navLinks);
   console.log(navigationLinkIsActive);
+  console.log(link);
 	
-  Array.prototype.forEach.call(navigationLinks, (navigationLink) => navigationLink.classList.remove('activeDot')); 
+  Array.prototype.forEach.call(spans, (span) => spans.classList.remove('activeDot')); 
 	
 
-  navigationLinkIsActive.classList.add('activeDot'); // add CSS class to current .navigation__link
+  navigationLinkIsActive.querySelector(".dot").classList.add('activeDot'); // add CSS class to current .navigation__link
 
 });
