@@ -79,7 +79,7 @@ Barba.Dispatcher.on('newPageReady', function(currentStatus) {
 	console.log(navigationLinks);
 	console.log(navigationLinkIsActive);
 	
-  Array.prototype.forEach.call(navigationLinks, (navigationLink) => navigationLink.classList.remove('.activeDot')); // remove CSS class 'is-active' from all .navigation__links
+  Array.prototype.forEach.call(navigationLinks, (navigationLinks) => navigationLink.classList.remove('.activeDot')); // remove CSS class 'is-active' from all .navigation__links
 
   navigationLinkIsActive.classList.add('.activeDot'); // add CSS class to current .navigation__link
 
