@@ -70,10 +70,14 @@ Barba.Prefetch.init();
 
 Barba.Dispatcher.on('newPageReady', function(currentStatus) {
   const link = currentStatus.url.split(window.location.origin)[1].substring(1); // get path of current page
-
+	
+  const hrefPath = link.split("/");
+  const path = hrefPath[1];
+  console.log(path);
   const navigation             = document.querySelector('.navMenu');
   const navigationLinks        = document.querySelectorAll('.dot');
-  const navigationLinkIsActive = document.querySelector("a[href='" + link + "']");
+  const navigationLinkIsActive = document.querySelector("a[href='" + path + "']");
+	
 	console.log(navigation);
 	console.log(navigationLinks);
 	console.log(link);
