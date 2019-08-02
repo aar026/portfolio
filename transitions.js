@@ -77,16 +77,17 @@ Barba.Dispatcher.on('newPageReady', function(currentStatus) {
   const navigation             = document.querySelector('.navMenu');
   const navigationLinks        = document.querySelectorAll('.dot');
   const navigationLinkIsActive = document.querySelector("a[href='" + path + "']");
-  const newActiveSpan          = navigationLinkIsActive.querySelector.('.dot');
+  const newActiveSpan          = navigationLinkIsActive.querySelector('.dot');
 	
 	console.log(path);
 	console.log(navigation);
 	console.log(navigationLinks);
 	console.log(link);
 	console.log(navigationLinkIsActive);
+	console.log(newActiveSpan);
 	
 Array.prototype.forEach.call(navigationLinks, (navigationLink) => navigationLink.classList.remove('activeDot')); // remove CSS class 'is-active' from all .navigation__links
 
-newAtiveSpan.classList.add('activeDot'); // add CSS class to current .navigation__link
+newActiveSpan.classList.add('activeDot'); // add CSS class to current .navigation__link
 
 });
