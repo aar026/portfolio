@@ -78,7 +78,8 @@ Barba.Dispatcher.on('newPageReady', function(currentStatus) {
   const navigationLinks        = document.querySelectorAll('.dot');
   const navlinkwith			   = navigation.querySelectorAll('.menuItem');
   const navigationLinkIsActive = navigation.querySelector("a[href='" + path + "']"); //selects active anchor
-  const newActiveSpan          = navigationLinkIsActive.closest(".navLink"); // 
+  const newActiveList          = navigationLinkIsActive.closest("li");
+  const newActiveSpan 		   = newActiveList.querySelector('.dot');// 
 	
 	console.log(path);
 	console.log(navigation);
