@@ -74,11 +74,11 @@ Barba.Dispatcher.on('newPageReady', function(currentStatus) {
   const hrefPath = link.split("/");
   const path = hrefPath[1];
  
-  const navigation             = document.querySelector('.navMenu');
+  const navigation             = document.querySelector('.navMenu'); //
   const navigationLinks        = document.querySelectorAll('.dot');
   const navlinkwith			   = navigation.querySelectorAll('.menuItem');
-  const navigationLinkIsActive = document.querySelector("a[href='" + path + "']");
-  const newActiveSpan          = navigationLinkIsActive.querySelector('.dot');
+  const navigationLinkIsActive = navigation.querySelector("a[href='" + path + "']").closest(".navLink").querySelector('.dot'); //selects active anchor
+  const newActiveSpan          = navigationLinkIsActive.querySelector('.dot'); //
 	
 	console.log(path);
 	console.log(navigation);
