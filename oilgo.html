@@ -21,6 +21,20 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <title>Portfolio homepage</title>
+	<script>  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  Barba.Dispatcher.on('initStateChange', function() {
+    // modify to your needs
+    var path = (window.location.href).replace(window.location.origin, '').toLowerCase();
+    gtag('js', new Date());
+    gtag('config', 'UA-125478136-1', {
+      'anonymize_ip': true, // for GDPR
+      'page_title' : document.title,
+      'page_path': path
+    });
+  });
+  </script>
+
 </head>
 
 <body>
