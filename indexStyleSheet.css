@@ -36,7 +36,7 @@ box-shadow: 3px 3px 5px 0px rgb(232, 232, 231);
   backface-visibility: hidden;
   background-color: #ffffff;
   border-radius: 25px;
-	overflow: hidden;
+overflow: hidden;
 	
 }
 
@@ -49,8 +49,9 @@ box-shadow: 3px 3px 5px 0px rgb(232, 232, 231);
 .flip-card-back {
   background-color: #ffffff;
   padding: 20px;
-  padding-top:30px;
+  padding-top:80px;
   transform: rotateY(180deg);
+	
 }
 .indexSection {
 	background-color: #fbfbfb;
