@@ -1,0 +1,1001 @@
+/*====Layout====*/
+h1, h2, h3, h4, h5, h6, #top .title_container .main-title, tr.pricing-row td, #top .portfolio-title, .callout .content-area, .avia-big-box .avia-innerbox, .av-special-font, .av-current-sort-title, .html_elegant-blog #top .minor-meta {
+    font-family: 'IBM Plex Sans', sans-serif !important;
+}
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif !important;
+	background-color: #FBFBFB;
+}
+.html{
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+body{
+	overscroll-behavior:contain;
+	overscroll-behavior-y: none;
+ 	font-family: 'IBM Plex Sans', sans-serif !important;
+}
+.html{
+	font-family: "IBM Plex Sans Text";
+}
+.body{
+		font-family: "IBM Plex Sans Text";
+}
+.overviewBlocks {
+	text-align: left;
+	
+}
+
+.AffinityBlocks {
+	width: 25%;
+	margin: 15px;
+}
+
+#NickMeet {
+	width: 100%;
+}
+
+
+
+.pamphlet1 {
+	width: 100%;
+	padding-bottom: 40px;
+}
+
+
+
+.pamphlet1Testing {
+	width: 80%;
+	padding: 20px;
+}
+
+.Personas {
+	width: 100%;
+	margin: 20px;
+	border: dimgray 1px solid;
+}
+
+#ActionModel {
+	width: 100%;
+}
+
+#Afinnity2 {
+	width: 100%;
+	border: solid black 2px;
+}
+
+#FinalInside {
+	width: 100%;
+	border: black 2px solid;
+}
+
+#FinalOutside {
+	width: 100%;
+	border: solid black 2px;
+}
+
+.bodyContent {
+	line-height: 2rem;
+}
+
+.overViewLists {
+	padding-top: 25px;
+}
+.pamphlet1outside {
+	width: 75%;
+	padding: 20px;
+}
+
+/**Nav**/
+#signature {
+	width: 60px;
+	float: left;
+	padding-top:25px;
+}
+#name {
+
+	margin-top: 25px;
+	list-style: none;
+	font-size: .80em;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+#name a{
+	text-decoration: none;
+	color: dimgray;
+}
+#name li{
+	 padding-right: 20px;
+}
+
+.brand {
+	padding-top: 5px;
+	width:100%;
+	z-index: 1;
+	height: 100px;
+	padding-left: 5%;
+    padding-right: 5%;
+    position: fixed;
+    top: 0;
+    background-color: white;
+  }
+.mobileNavText{
+	color: dimgray;
+	font-size:8px;
+	text-align: center;
+	padding-top: 2px;
+}
+.mobileNavTextActive{
+	font-size:8px;
+	text-align: center;
+	padding-top: 2px;
+}
+.topNav{
+	list-style: none;
+	display: table;
+	margin-right:auto;
+	margin-left:auto;
+	padding: 0px;
+}
+.topNav li{
+	text-align: center;
+	display: inline-block;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+#NavBar{
+	float:right;
+}
+.dropbtn2 {
+  background-color: none;
+  color: white;
+  border: none;
+}
+
+.dropdown2 {
+  display: inline-block;
+}
+
+.dropdown2-content {
+	display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 2;
+  font-size: 16px;
+}
+
+.dropP{
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 8px;
+	color: black;
+	text-align: center;
+	margin-bottom: 5px;
+	border-bottom: double 1px  #C4960B;
+}
+.dropdown2-content a {
+  color: dimgray;
+  text-decoration: none;
+  display: block;
+	margin-top: 6px;
+	margin-left: 10px;
+	margin-right:10px;
+
+}
+.activeMenuItem {
+	border-bottom: 2px solid #C4960B;
+}
+
+.dropdown2-content a:hover {
+color:#C4960B; }
+
+.dropdown2:hover .dropdown2-content {display: block;
+color:#C4960B;}
+
+.dropdown2:hover .dropbtn2 {transform: rotate(
+90deg);
+transition-duration: .35s;
+color:#C4960B;}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+/*button style*/
+.dropbtn{
+	background-color:none;
+	border:none;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  bottom: 50px;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+/*====MobileMenu=====*/
+#buttonNav {
+	bottom: 0;
+	border-top: 1px solid #eae7e2;
+	background-color: #f8f7f4;
+	height: 53px;
+	text-align: center;
+	width: 100%;
+	position: fixed;
+	transition: bottom 1s;	
+}
+#buttonNav ul {
+	list-style: none;
+	display: table;
+	margin-right:auto;
+	margin-left:auto;
+	padding: 0px;
+}
+#buttonNav li{
+	text-align: center;
+	display: inline-block;
+	margin-left: 30px;
+	margin-right: 30px;
+		
+}
+.Icons {
+	width: 32px;
+	margin-top:5px;
+}
+/***Footer****/
+.footer {
+	background-color: gray;
+	height: 130px;
+	bottom: 100%;
+	
+}
+.footerCopyright {
+	text-align: center;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size:.75rem;
+	color: white;
+	padding-top: 50px;
+}
+
+/*=========================Page Formating=======================*/
+
+body{
+	overscroll-behavior:contain;
+	overscroll-behavior-y: none;
+}
+p{
+	font-family: "IBM Plex Sans Text" !important;
+}
+.section{
+width: 100%;
+overflow: hidden;
+padding-top:65px;
+padding:20px;
+text-align:center;
+padding-bottom: 40px;
+margin-bottom:40px;
+border-bottom: 1px #C4960B solid;
+border-radius: 3px;
+	
+}
+.sectionContent {
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 50px;
+	text-align: left;
+}
+.subCategory {
+	text-align: left;
+	margin-bottom: 35px;
+	margin-top:25px;
+	overflow: hidden;
+	border-left: 1px solid #C4960B;
+	border-radius: 5px;
+	padding:20px;
+	line-height: 2rem;
+	padding-top:0px;
+}
+.subCategory2 {
+	text-align: left;
+	margin-bottom: 35px;
+	margin-top:25px;
+	overflow: hidden;
+	border-left: 1px solid #003468;
+	padding:20px;
+	line-height: 2rem;
+	padding-top:0px;
+	border-radius: 5px;
+}
+
+.subCategoryblue {
+	text-align: left;
+	margin-bottom: 35px;
+	margin-top:25px;
+	overflow: hidden;
+	border-left: 2px solid #003468;
+	padding:20px;
+	line-height: 2rem;
+	padding-top:0px;
+}
+
+
+/*==========Headers and Titles================*/
+h2 {
+	color: black;
+}
+h6{
+	font-weight: bold;
+}
+h1 {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"
+}
+.overviewHeaders {
+
+	font-weight: bold;
+    font-size: .8rem;
+    text-align: left;
+    padding-bottom: 0px;
+}
+.subHeader {
+	text-align: left;
+	margin-bottom: 25px;
+	margin-top: 15px;
+}
+.overViewHeader{
+	padding-bottom: 50px;
+}
+.adminListContainer{margin-bottom:
+25px; float: left;}
+/*============ Text Formatting==============*/
+
+.introHook {
+	text-align:center;
+margin-left:auto;
+margin-right:auto;
+color:dimgray;
+padding-top:20px;
+	font-weight: bolder;
+	
+}
+.overviewText {
+	margin-left: 25px;
+	font-size: .75rem;
+	width: 50%;
+
+}
+figcaption {
+	font-size: .85rem;
+	padding-top: 10px;
+	margin: 10px;
+	line-height: 1rem;
+	font-style: italic;
+	text-align: center;
+}
+.teamNames {
+	text-align: left;
+    font-size: .75rem;
+    margin-bottom: 4px;
+}
+
+.undergradNames {
+	text-align: left;
+	font-size: .75rem;
+	margin-left: 25px;
+    width: 90%;
+}
+.challengeList {
+	text-align: left;
+	margin:auto;
+	font-family: "IBM Plex Sans Text";
+}
+.adminNamesList {
+list-style: none;
+	font-family:'IBM Plex Sans Text';
+	padding: 0px;
+	margin-left: 25px;
+	width: 200px;
+}
+/****Section Formatting******/
+.intro {
+	pad7ding-top: 70px;
+	text-align: center;
+	padding-bottom: 200px;
+
+}
+
+
+.overviewContentDivs {
+	margin: auto;
+	font-size: 1rem;
+	text-align: left;
+	margin-left: 25px;
+	clear: left;
+}
+.TakeAway{
+	margin-bottom: 150px;
+}
+/*======Project Images========*/
+.rightImage {
+
+	text-align: center;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+}
+.leftImage {
+	text-align: center;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.centerImage {
+	text-align: center;
+	float: none;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+#FinalPamphlet {
+	width: 100%;
+	padding-bottom: 10px;
+	border: 5px #182B49 solid;
+}
+
+#brainstormSketch{
+	width: 100%;
+	border: black solid 2px;
+		
+}
+#introImage {
+	padding: 20px;
+	width: 100%;
+	padding-top:200px;
+	margin:auto;
+	margin-bottom:20px;
+}
+#BillboardPrototype{
+	width: 60%;
+}
+.billboards{
+	width: 75%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+}
+#AffinityMake{
+	width: 100%;
+}#AffinityMake2{
+	width: 100%;
+}
+#IdeationSession{
+	width: 100%;
+}
+#AffinityDiagram{
+	width: 100%;
+}
+#JapaneseTrain{
+	width: 100%;
+}
+#DataSummary{
+	width: 100%;
+}
+#ObservationSynthesis{
+	width: 100%;
+}
+#BrainstormSketch{
+		width: 100%;
+}
+#Persona{
+border: 2px solid black;
+		width: 100%;
+}
+#AdrianBrandon{
+		width: 100%;
+}
+#PrototypeSketch{
+		width: 100%;
+}
+#WizardofOZ{
+		width: 80%;
+}
+/*==========animations==========*/
+button:focus,button:active {
+   outline: none !important;
+   box-shadow: none;
+}
+.invis {
+	-webkit-animation:fade-in 3s infinite alternate;
+}
+@-webkit-keyframes fade-in{
+from{
+    opacity:0;
+}
+to{
+    opacity:1;
+}
+}
+/**Page breaks***/
+@media all 
+  and (min-device-width: 1281px) { 
+		#name li{
+			display: inline;
+		}
+		#buttonNav{
+			 display:none;
+		}
+	  #introImage{
+		  width: 45%;
+	  }
+		.menuItem{
+			float: right;
+		}
+	  body{font-size: 20px;}
+		.projectsHeader {
+			 text-align: center;
+		   font-size: 3.75rem;
+			line-height: 3rem;
+			text-indent: 0;
+			font-weight: bold;
+			color: #151515;
+			padding-top:15px;
+			  }
+		#name{
+			text-align: left;
+			font-size: 1.5em;
+			margin-top: 0px;
+			padding-left: 200px;
+
+		}
+		.brand{
+			padding-left: 5%;
+			padding-right: 5%;
+				position: fixed;
+			top:0;
+    background-color: white;
+    height: 100px;
+			padding-top:35px;
+		}
+		#signature{
+			width: 100px;
+			padding-top:0px;
+			margin-top:0px;
+		}
+
+	  .dropdown2-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 2;
+  font-size: 1em;
+}
+	  .Icons{
+		  width:50px;
+	  }
+	  .projectsHeader{
+		margin-bottom: 50px;
+	}
+	.leftImage{
+		float:left;
+		width: 45%;
+	}	
+	.rightImage{
+		float:right;
+		width: 45%;
+	}	
+	.centerImage{
+		width: 85%;
+		text-align: center;
+		margin: auto;
+	}
+	#JapaneseTrain{
+		width: 55%;
+	}
+	#ObservationSynthesis{
+		width: 85%;
+		margin-top:25px;
+	}
+	  .intro{
+		  margin-bottom:175px;
+		  padding-top: 150px;
+	  }
+	#carLogo{
+		width: 40%;
+		float: right;
+	}
+	.bodyContent{
+		margin-left:15%;
+		margin-right:15%;
+	}
+		
+	.overviewHeaders{
+		display: inline-flex;
+		width: 100px;
+	}
+	.overviewText{
+		display: inline-flex;
+		margin-left:200px;
+		clear: both;
+		text-align: left;
+	}
+	.adminListContainer{
+		float: none;
+		display: inline-flex;
+		margin-left: 200px;
+	}
+	.adminNamesList{
+		margin-left:0px;
+		
+	}
+	.undergradNames{
+		display:inline-flex;
+		margin-left: 200px;
+		width: 50%;
+		
+	}
+	.leftText{
+		float: left;
+		width: 50%;
+	}	
+	.rightText{
+		float: right;
+		width: 50%;
+	}
+	.rightImage{
+		width: 45%;
+	}
+	#CriticalFactors{
+		margin-top:70px;
+	}
+	#BrainstormSketch{
+		width:80%;
+		margin-top:45px;
+	}
+	#AdrianBrandon{width: 55%;}
+}
+/*desktop*/
+
+@media all and (min-width: 1025px) and (max-width: 1280px) {
+	.leftImage{
+		float:left;
+		width: 45%;
+	}	
+	.rightImage{
+		float:right;
+		width: 45%;
+	}	
+	.centerImage{
+		width: 85%;
+		text-align: center;
+		margin: auto;
+	}
+	#ObservationSynthesis{
+		width: 85%;
+		margin-top:25px;
+	}
+		#name li{
+			display: inline;
+		}
+		#buttonNav{
+			 display:none;
+		}
+
+		.menuItem{
+			float: right;
+
+		}
+		.introLinks{
+			margin-top: 40px;
+
+		}
+		
+		#name{
+			text-align: left;
+			font-size: 1.5em;
+			margin-top: 35px;
+			padding-left: 200px;
+
+		}
+	#carLogo{
+		width: 40%;
+		float: right;
+	}
+	.intro{
+		margin-bottom: 100px;
+	}
+	.bodyContent{
+		margin-left:20%;
+		margin-right:20%;
+	}
+		.brand{
+			padding-left: 5%;
+			padding-right: 5%;
+			position: fixed;
+  			top: 0;
+    		background-color: white;
+   			height: 100px;
+		}
+		#signature{
+			width: 100px;
+		}
+		.uxProjects{
+			display: none;
+	}
+	.overviewHeaders{
+		display: inline-flex;
+		width: 100px;
+	}
+	.overviewText{
+		display: inline-flex;
+		margin-left:100px;
+		clear: both;
+		text-align: left;
+	}
+	.adminListContainer{
+		float: none;
+		display: inline-flex;
+		margin-left: 100px;
+	}
+	.adminNamesList{
+		margin-left:0px;
+		
+	}
+	.undergradNames{
+		display:inline-flex;
+		margin-left: 100px;
+		width: 50%;
+		
+	}
+	.leftText{
+		float: left;
+		width: 50%;
+	}	
+	.rightText{
+		float: right;
+		width: 50%;
+	}
+	.rightImage{
+		width: 45%;
+	}
+	#CriticalFactors{
+		margin-top:70px;
+	}
+	#BrainstormSketch{
+		width:80%;
+		margin-top:45px;
+	}
+	#AdrianBrandon{width: 55%;}
+	#introImage{
+		width: 40%;
+		padding-top:150px;
+	}
+}
+ /*iPad*/
+@media all and (min-width: 769px) and (max-width: 1024px) {
+
+	.projectsHeader{
+		margin-bottom: 25px;
+	}
+	.leftImage{
+		float:left;
+		width: 45%;
+	}	
+	.rightImage{
+		float:right;
+		width: 45%;
+	}	
+	.centerImage{
+		width: 85%;
+		text-align: center;
+		margin: auto;
+	}
+	#ObservationSynthesis{
+		width: 85%;
+		margin-top:25px;
+	}
+		#name li{
+			display: inline;
+		}
+		#buttonNav{
+			 display:none;
+		}
+
+		.menuItem{
+			float: right;
+
+		}
+		.introLinks{
+			margin-top: 40px;
+
+		}
+		
+		#name{
+			text-align: left;
+			font-size: 1.5em;
+			margin-top: 35px;
+			padding-left: 200px;
+
+		}
+
+	.bodyContent{
+		margin-left:15%;
+		margin-right:15%;
+	}
+		.brand{
+			padding-left: 5%;
+			padding-right: 5%;
+			position: fixed;
+  			top: 0;
+    		background-color: white;
+   			height: 100px;
+		}
+		#signature{
+			width: 100px;
+		}
+		.uxProjects{
+			display: none;
+	}
+	.overviewHeaders{
+		display: inline-flex;
+		width: 100px;
+	}
+	.overviewText{
+		display: inline-flex;
+		margin-left:100px;
+		clear: both;
+		text-align: left;
+	}
+	.adminListContainer{
+		float: none;
+		display: inline-flex;
+		margin-left: 100px;
+	}
+	.adminNamesList{
+		margin-left:0px;
+		
+	}
+	.undergradNames{
+		display:inline-flex;
+		margin-left: 100px;
+		width: 50%;
+		
+	}
+	.leftText{
+		float: left;
+		width: 50%;
+	}	
+	.rightText{
+		float: right;
+		width: 50%;
+	}
+	.rightImage{
+		width: 45%;
+	}
+	#CriticalFactors{
+		margin-top:70px;
+	}
+	#BrainstormSketch{
+		width:80%;
+		margin-top:45px;
+	}
+	#AdrianBrandon{width: 55%;}
+
+
+	#introImage{
+		width: 75%;
+		margin-bottom:20px;
+		padding-top:150px;
+	}
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) { 
+	.menuItem{
+		display: none;
+	}
+
+	.caseText{
+		padding-left:10%;
+		padding-right: 10%;
+	}
+	.Icons{
+		margin-left: 25px;
+		margin-right: 25px;
+	}
+	#name{
+		float: right;
+		padding-right: 2%;
+	}
+	#signature{
+	margin-left: 5%;
+	}
+	#AdrianBrandon{
+	width:45%;
+	float: left;
+	padding: 20px;
+	}
+	#WizardofOZ{
+		width:45%;
+	}
+	#BrainstormSketch{
+		width:35%;
+	}
+	#introImage{
+		width: 80%;
+		padding-top:150px;
+	}
+	.bodyContent{
+		margin-left:15%;
+		margin-right:15%;
+	}
+}
+ 
+@media (min-width:20px) and (max-width:480px){
+	/*********Div Spacing*****************/
+	.menuItem{
+		display: none;
+	}
+	#name{
+		float: right;	}
+
+	.teamNames{
+	}
+	.challengeList{
+		line-height: 1.75rem;
+	}
+	#AdrianBrandon{
+		width:55%;
+		float: left;
+		padding: 15px;
+	}
+	.leftImage{
+		padding:0px;
+	}
+	#signature{margin-left:5%;
+	}
+	#introImage{
+		width:100%;
+		
+	}
+	.bodyContent{
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+}
+/* CSS for iPhone, iPad, and Retina Displays */
+ 
+/* Non-Retina */
+@media screen and (-webkit-max-device-pixel-ratio: 1) {
+}
+ 
+/* Retina */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5) {
+}
+
+
+
+
+
+

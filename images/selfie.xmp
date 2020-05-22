@@ -1,0 +1,85 @@
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c140 79.160451, 2017/05/06-01:08:21        ">
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about=""
+    xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+    xmlns:tiff="http://ns.adobe.com/tiff/1.0/"
+    xmlns:exif="http://ns.adobe.com/exif/1.0/"
+    xmlns:aux="http://ns.adobe.com/exif/1.0/aux/"
+    xmlns:exifEX="http://cipa.jp/exif/1.0/"
+    xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/"
+    xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+    xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
+   xmp:Rating="0"
+   xmp:ModifyDate="2018-08-17T12:54:34.18"
+   xmp:CreateDate="2018-08-17T12:54:34.18"
+   xmp:MetadataDate="2019-05-05T12:04:13-07:00"
+   tiff:Make="Canon"
+   tiff:Model="Canon EOS Rebel T6"
+   tiff:Orientation="1"
+   exif:ExifVersion="0230"
+   exif:ExposureTime="1/200"
+   exif:ShutterSpeedValue="7643856/1000000"
+   exif:FNumber="20/1"
+   exif:ApertureValue="8643856/1000000"
+   exif:ExposureProgram="2"
+   exif:SensitivityType="2"
+   exif:RecommendedExposureIndex="400"
+   exif:ExposureBiasValue="0/1"
+   exif:MaxApertureValue="3625/1000"
+   exif:MeteringMode="5"
+   exif:FocalLength="18/1"
+   exif:CustomRendered="0"
+   exif:ExposureMode="0"
+   exif:WhiteBalance="0"
+   exif:SceneCaptureType="0"
+   exif:FocalPlaneXResolution="5184000/905"
+   exif:FocalPlaneYResolution="3456000/595"
+   exif:FocalPlaneResolutionUnit="2"
+   exif:DateTimeOriginal="2018-08-17T12:54:34.18"
+   aux:SerialNumber="282073092303"
+   aux:LensInfo="18/1 55/1 0/0 0/0"
+   aux:Lens="EF-S18-55mm f/3.5-5.6 IS II"
+   aux:LensID="52"
+   aux:LensSerialNumber="00003a4361"
+   aux:ImageNumber="0"
+   aux:ApproximateFocusDistance="66/100"
+   aux:FlashCompensation="0/1"
+   aux:Firmware="1.1.0"
+   exifEX:LensModel="EF-S18-55mm f/3.5-5.6 IS II"
+   photoshop:DateCreated="2018-08-17T12:54:34.18"
+   photoshop:SidecarForExtension="CR2"
+   photoshop:EmbeddedXMPDigest="AD0ACF660F79AC49FD004B2DD3BC0461"
+   xmpMM:DocumentID="79E3D25635D46EE710F5BE99B858F91C"
+   xmpMM:OriginalDocumentID="79E3D25635D46EE710F5BE99B858F91C"
+   xmpMM:InstanceID="xmp.iid:71d37e79-8042-0c40-aedb-84d0dd230aef"
+   dc:format="image/x-canon-cr2"
+   crs:HasSettings="False"
+   crs:HasCrop="False"
+   crs:AlreadyApplied="False"
+   crs:RawFileName="selfie.CR2">
+   <exif:ISOSpeedRatings>
+    <rdf:Seq>
+     <rdf:li>400</rdf:li>
+    </rdf:Seq>
+   </exif:ISOSpeedRatings>
+   <exif:Flash
+    exif:Fired="True"
+    exif:Return="0"
+    exif:Mode="1"
+    exif:Function="False"
+    exif:RedEyeMode="False"/>
+   <xmpMM:History>
+    <rdf:Seq>
+     <rdf:li
+      stEvt:action="saved"
+      stEvt:instanceID="xmp.iid:71d37e79-8042-0c40-aedb-84d0dd230aef"
+      stEvt:when="2019-05-05T12:04:13-07:00"
+      stEvt:softwareAgent="Adobe Photoshop Camera Raw 10.5 (Windows)"
+      stEvt:changed="/metadata"/>
+    </rdf:Seq>
+   </xmpMM:History>
+  </rdf:Description>
+ </rdf:RDF>
+</x:xmpmeta>

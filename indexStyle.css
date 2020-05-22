@@ -1,0 +1,790 @@
+/*====Layout====*/
+h1, h2, h3, h4, h5, h6, #top .title_container .main-title, tr.pricing-row td, #top .portfolio-title, .callout .content-area, .avia-big-box .avia-innerbox, .av-special-font, .av-current-sort-title, .html_elegant-blog #top .minor-meta {
+    font-family: 'IBM Plex Sans', sans-serif !important;
+}
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif !important;
+}
+.html{
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+body{
+	overscroll-behavior:contain;
+	overscroll-behavior-y: none;
+ 	font-family: 'IBM Plex Sans', sans-serif !important;
+}
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+.container {
+	margin-top: 20px;
+	margin-bottom: 60px;
+}
+.dot {
+  height: 5px;
+    width: 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+}
+.activeDot{
+	background-color:#C4960B;
+}
+.mobileNavText{
+	color: dimgray;
+	font-size:8px;
+	text-align: center;
+	padding-top: 2px;
+}
+.mobileNavTextActive{
+	font-size:8px;
+	text-align: center;
+	padding-top: 2px;
+}
+
+h2 {
+	color: black;
+
+	
+}
+h1 {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+/*============Introduction==============*/
+.jumbotron {
+	background-color: white;
+	margin-top:175px;
+	margin-bottom: 150px;
+}
+/*========Top Nav===========*/
+#NavBar{
+	float:right;
+}
+.topNav{
+	list-style: none;
+	display: table;
+	margin-right:auto;
+	margin-left:auto;
+	padding: 0px;
+}
+.aboutText{
+	text-align: center;
+}
+.topNav li{
+	text-align: center;
+	display: inline-block;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+/*========NavBranding=============*/
+#signature {
+	width: 60px;
+	float: left;
+	padding-top:25px;
+}
+
+#name {
+
+	margin-top: 25px;
+	list-style: none;
+	font-size: .80em;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+
+}
+#name li{
+	 padding-right: 20px;
+}
+#name a{
+	text-decoration: none;
+	color: dimgray;
+}
+.brand {
+	padding-top: 5px;
+	width:100%;
+	z-index: 1;
+}
+.dropbtn2 {
+  background-color: none;
+  color: white;
+  border: none;
+}
+
+.dropdown2 {
+  display: inline-block;
+overflow: visible;}
+
+.dropdown2-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 2;
+  font-size: 16px;
+}
+
+.dropP{
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 8px;
+	color: black;
+	text-align: center;
+	margin-bottom: 5px;
+	border-bottom: double 1px  #C4960B;
+}
+.dropdown2-content a {
+  color: dimgray;
+  text-decoration: none;
+  display: block;
+	margin-top: 6px;
+	margin-left: 10px;
+	margin-right:10px;
+
+}
+.dropdown2-content a:hover {
+color:#C4960B; }
+
+.dropdown2:hover .dropdown2-content {display: block;
+color:#C4960B;}
+
+.dropdown2:hover .dropbtn2 {transform: rotate(
+90deg);
+transition-duration: .35s;
+color:#C4960B;}
+/*=====IntroLinks======*/
+.about {
+	color: dimgray;
+	text-align:center;
+}
+.introLinks {
+	margin-top: 55px;
+	text-align: center;
+	font-size: .75em;
+}
+.introLinks a{
+	text-decoration:none;
+	}
+.introLinks a:hover{
+	color:#C4960B;
+	decoration:none;
+	text-decoration: none;
+}
+.introLinks a:active{
+	color:#C4960B;
+	decoration: none;
+}
+
+.contacts {
+	color: dimgray;
+}
+/*====MobileMenu=====*/
+#buttonNav {
+	bottom: 0;
+	border-top: 1px solid #eae7e2;
+	background-color: #f8f7f4;
+	height: 53px;
+	text-align: center;
+	width: 100%;
+	position: fixed;
+	transition: bottom 1s;	
+}
+#buttonNav ul {
+	list-style: none;
+	display: table;
+	margin-right:auto;
+	margin-left:auto;
+	padding: 0px;
+}
+#buttonNav li{
+	text-align: center;
+	display: inline-block;
+	margin-left: 30px;
+	margin-right: 30px;
+		
+}
+.Icons {
+	width: 32px;
+	margin-top:5px;
+}
+/*======background images for projects=========*/
+.ProjectRemac{
+	background-image: url(AvCar.jpg);
+}
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+/*button style*/
+.dropbtn{
+	background-color:none;
+	border:none;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+ display: none;
+  position: absolute;
+  bottom: 50px;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+/*===========UXProjects Layouts==============*/
+.uxProj {
+	text-align: left;
+	text-indent: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 30px;
+}
+
+.uxProjects {
+background-color: #f3f1ec;
+width: 100%;
+overflow: hidden;
+padding-top:15%;
+padding-bottom: 25%;
+}
+.row {
+	margin-top:15px;
+	display: flex;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+	margin-left: 5px;
+	margin-right: 5px;
+	height: 425px;
+	text-align: center;
+	background-color: white;
+	overflow: hidden;
+	}
+	.content {
+	margin: 20px;
+	margin-bottom: 75px;
+	}
+/*======Projects Desktop */
+.uxProjectsDesktop{
+background-color: #f3f1ec;
+width: 100%;
+overflow: hidden;
+padding-top:65px;
+padding-bottom: 50px;
+}
+/*======Project Images========*/
+.OilGo {
+	width:50%;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.Remac {
+	width:60%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.Hyundai{
+	width:65%;
+	dispay:block;
+	margin-left: auto;
+	margin-right:auto;
+	margin-top: 5px;
+	
+}
+
+.GardenKits {
+display: block;
+margin-left: auto;
+	margin-right: auto;
+	width:55%;
+	height: 55%;
+}
+.your-class {
+	width: 100%;
+}
+.projectsHeader {
+	font-size: 1.75rem;
+	line-height: 2rem;
+	text-align: center;
+	text-indent: 0;
+	font-weight: bold;
+	margin-bottom: 30px;
+	color: #151515;
+	font-family: 'IBM Plex Sans', sans-serif !important;
+}
+.miniHeader {
+	text-align: center;
+	text-indent: 0;
+	color: black;
+	font-weight: bold;
+	margin-top:30px;
+}
+.caseText {
+	padding-left: 15px;
+	padding-right: 15px;
+	color: dimgray;
+	display: inline-block;
+}
+.learnBtn {
+	font-size: 10px;
+	color: #C4960B;
+}
+a.learnBtn:hover {
+	text-decoration: none;
+	color: dimgray;
+}
+a.learnBtn:active {
+	text-decoration: none;
+	color: dimgray;
+}
+
+.ptext {
+	font-color:dimgray;
+	font-size: 18px;
+	text-align: center;
+	margin-top:20px;
+	margin-bottom:10px;
+}
+/*=====WebDevelopment=====*/
+.webDev {
+width: 100%;
+overflow: hidden;
+padding-top:20%;
+padding-bottom: 25%;
+}
+.your-class2 {
+		width: 100%
+}
+.row2 {
+	background-color: #f3f1ec;
+}
+.footer {
+	background-color: gray;
+	height: 130px;
+	bottom: 100%;
+	
+}
+.nametag {
+	text-align: center;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size:.75rem;
+	color: white;
+	padding-top: 50px;
+}
+/*==========animations==========*/
+button:focus,button:active {
+   outline: none !important;
+   box-shadow: none;
+}
+.invis {
+	-webkit-animation:fade-in 3s infinite alternate;
+}
+@-webkit-keyframes fade-in{
+from{
+    opacity:0;
+}
+to{
+    opacity:1;
+}
+}
+@media all 
+  and (min-device-width: 1281px) { 
+	  	.Hyundai{
+			width:50%;
+		}
+		#name li{
+			display: inline;
+		}
+		#buttonNav{
+			 display:none;
+		}
+		.jumbotron{
+			padding-top: 20px;
+			text-align: center;
+			margin-bottom: 60px;
+		}
+		.menuItem{
+			float: right;
+
+		}
+	  
+		.aboutText {
+			width: 350px;
+			text-align: center;
+			margin-left: auto;
+			margin-right: auto;
+			font-size:2rem;
+			padding-bottom: 10px;
+			padding-top:100px;
+ 
+		}
+	  .projectsHeader {
+    font-size: 2.75rem;
+    line-height: 2rem;
+    text-align: center;
+    text-indent: 0;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #151515;
+}.ptext {
+    font-color: dimgray;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+		.introLinks{
+			margin-top: 40px;
+			font-size: 1rem;
+
+		}
+		.container{
+			margin-bottom: 0px;
+			max-width: 100%;
+		}
+		#name{
+			text-align: left;
+			font-size: 1.5em;
+			margin-top: 0px;
+			padding-left: 200px;
+
+		}
+		.brand{
+			padding-left: 5%;
+			padding-right: 5%;
+				position: fixed;
+			top:0;
+    background-color: white;
+    height: 100px;
+			padding-top:35px;
+		}
+		#signature{
+			width: 100px;
+			padding-top:0px;
+			margin-top:0px;
+		}
+		.uxProjects{
+			display: none;
+		}
+	  .caseText{
+		  padding-top: 50px;
+	  }
+	  .dropdown2-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 2;
+  font-size: 1em;
+}
+	  .Icons{
+		  width:50px;
+	  }
+}
+/*desktop*/
+@media all and (min-width: 1025px) and (max-width: 1280px) {
+		.Hyundai{
+			width:50%;
+		}
+		.projImg{
+		padding-top:125px;
+	}
+	body{font-size: 20px;}
+	.caseText{
+		font-size:.85rem;
+		padding-top:65px;
+		height: 40%;
+	}
+		#name li{
+			display: inline;
+		}
+		.uxProjects{
+			padding-top: 65px;
+		}
+		#buttonNav{
+			 display:none;
+		}
+		.jumbotron{
+			padding-top: 20px
+		}
+		.menuItem{
+			float: right;
+
+		}
+		.aboutText {
+			width: 250px;
+			text-align: center;
+			margin-left: auto;
+			margin-right: auto;
+			padding-top:10px;
+			font-size:1.25rem;
+
+		}
+		.introLinks{
+			margin-top: 40px;
+
+		}
+		.container{
+			margin-bottom: 0px;
+			max-width: 100%;
+		}
+		#name{
+			text-align: left;
+			font-size: 1.5em;
+			margin-top: 35px;
+			padding-left: 200px;
+
+		}
+		.brand{
+			padding-left: 5%;
+			padding-right: 5%;
+			position: fixed;
+  			top: 0;
+    		background-color: white;
+   			height: 100px;
+		}
+		#signature{
+			width: 100px;
+		}
+		.uxProjects{
+			display: none;
+	}
+}
+
+ /*iPad*/
+@media all and (min-width: 769px) and (max-width: 1024px) {
+	.Hyundai{
+		width:50%;
+	}
+	.projImg{
+		padding-top:125px;
+	}
+	#name{
+		font-size:1rem;
+	}
+	#name li{
+		display: inline;
+	}
+	.uxProjects{
+		padding-top: 65px;
+	}
+	#buttonNav{
+		 display:none;
+	}
+	.jumbotron{
+		padding-top: 20px
+	}
+	.menuItem{
+		float: right;
+		
+	}
+	.aboutText {
+		width: 250px;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top:10px;
+		
+	}
+	.caseText{
+		font-size:.85rem;
+		padding-top:25px;
+		height: 40%;
+	}
+	.introLinks{
+		margin-top: 40px;
+		
+	}
+	.container{
+		margin-bottom: 0px;
+		max-width: 100%;
+	}
+	#name{
+		text-align: left;
+		font-size: 1.5em;
+		margin-top: 35px;
+		padding-left: 200px;
+		
+	}
+	.brand{
+		padding-left: 5%;
+		padding-right: 5%;
+		position: fixed;
+		top: 0;
+		background-color: white;
+		height: 100px;
+	}
+	#signature{
+		width: 100px;
+	}
+	.uxProjects{display: none;
+	}
+
+}
+ 
+@media only screen and (min-width: 481px) and (max-width: 768px) { 
+	.menuItem{
+		display: none;
+	}
+	
+	.caseText{
+		padding-left:10%;
+		padding-right: 10%;
+	}
+	.Icons{
+		margin-left: 25px;
+		margin-right: 25px;
+	}
+	.jumbotron{
+		padding-left: 15%;
+		padding-right: 15%;
+	}
+	.introLinks{
+		margin-top: 70px
+	}
+	#name{
+		float: right;
+		padding-right: 2%;
+	}
+	#signature{
+	margin-left: 5%;
+	}
+	.uxProjectsDesktop{
+		display:none;
+		
+	}
+	.projImg{
+		padding-top:125px;
+	}
+	.ProjectText{padding-top:80px;
+	}
+		.aboutText {
+		width: 250px;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top:10px;
+		
+	}
+}
+ 
+@media only screen and ( max-width : 480px)
+{
+	/*********Div Spacing*****************/
+	.jumbotron{
+		padding-left: 15%;
+		padding-right: 15%;
+	}
+	.body{font-family: "IBM Plex Sans Text"}
+	.ptext{
+		margin-top: 40px;
+		padding-left: 15%;
+		padding-right: 15%;
+	}
+	.menuItem{
+		display:none;
+		
+	}
+	#name{
+		float: right;
+	}
+	.uxProjectsDesktop{
+		display: none;
+		
+	}
+	.nameText{
+		text-align: center;
+	}
+	.ProjectText{
+		font-size:.78rem;
+	}
+	#signature{
+		margin-left:5%;
+	}
+}
+/* CSS for iPhone, iPad, and Retina Displays */
+
+.activeMenuItem {
+	border-bottom: 2px solid #C4960B;
+}
+
+.ProjectText {
+	padding-top:50px;
+	padding-bottom: 30px;
+	display: inline-block;
+	text-align: center;
+	height: 55%;
+}
+
+.ProjectImgcontainer {
+	height: 45%;
+	padding-top: 20px;
+}
+
+.HyundaiDesktop {
+	width:70%;
+	dispay:block;
+	margin-left: auto;
+	margin-right:auto;
+	margin-top:25px;
+}
+
+.OilGoDesktop {
+	width:50%;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.RemacDesktop {
+	width:50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.hyundaiBack{
+	background-image: url(images/HyundaiBackground.png);
+	background-size: cover;
+}
+.OilGoback{
+	background-image: url(images/OilgoBack2.jpg);
+	background-size: cover;
+}
+.RemacBack{
+	background-image:url(images/RimacBack.jpg);
+	background-size:cover;
+}
+.projImg {
+padding-top:128px;	
+	-webkit-filter: drop-shadow(2px 2px 2px dimgray);
+    filter:         drop-shadow(2px 2px 2px dimgray); 
+}
+.projImgMobile {
+padding-top:25px;	
+	-webkit-filter: drop-shadow(2px 2px 2px dimgray);
+    filter:         drop-shadow(2px 2px 2px dimgray); 
+}
